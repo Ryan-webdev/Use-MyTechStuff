@@ -66,7 +66,7 @@ const UpdateItem = props => {
             [e.target.name]: value
         });
     };
-
+    //submit items
     const HandleSubmit = e => {
         e.preventDefault();
         axiosWithAuth()
